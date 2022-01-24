@@ -1,53 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-01-10 15:46:51 by Eclipse SUMO netconvert Version 1.11.0
+<!-- generated on 2022-01-24 16:38:40 by Eclipse SUMO netedit Version 1.11.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
-        <type-files value="C:\Program%20Files%20(x86)\Eclipse\Sumo\data\typemap\osmNetconvert.typ.xml"/>
-        <osm-files value="osm_bbox.osm.xml"/>
+        <sumo-net-file value="/Users/mat/Projects/lg-traffic-control/simulation_data/osm.net.xml"/>
     </input>
 
     <output>
-        <output-file value="osm.net.xml"/>
+        <output-file value="/Users/mat/Projects/lg-traffic-control/simulation_data/osm.net.xml"/>
         <output.street-names value="true"/>
-        <output.original-names value="true"/>
-        <ptstop-output value="osm_stops.add.xml"/>
-        <ptline-output value="osm_ptlines.xml"/>
     </output>
 
-    <projection>
-        <proj.utm value="true"/>
-    </projection>
-
     <processing>
-        <geometry.remove value="true"/>
-        <roundabouts.guess value="true"/>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
     </processing>
 
-    <tls_building>
-        <tls.discard-simple value="true"/>
-        <tls.join value="true"/>
-        <tls.guess-signals value="true"/>
-        <tls.default-type value="actuated"/>
-    </tls_building>
-
-    <ramp_guessing>
-        <ramps.guess value="true"/>
-    </ramp_guessing>
-
     <junctions>
-        <junctions.join value="true"/>
+        <no-turnarounds value="true"/>
         <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
     </junctions>
 
-    <railway>
-        <railway.topology.repair value="true"/>
-        <railway.topology.repair.stop-turn value="true"/>
-    </railway>
+    <pedestrian>
+        <walkingareas value="false"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/Users/mat/Projects/lg-traffic-control/simulation_data/osm_stops.add.xml"/>
+    </netedit>
 
     <report>
-        <verbose value="true"/>
         <aggregate-warnings value="5"/>
     </report>
 
@@ -69,14 +56,14 @@
     <busStop id="1115656880" name="Am Sande" lane="36335706_0" startPos="3.21" endPos="18.21" friendlyPos="true" lines="5015 5012 5011 5600 5201 5700 5003 5007"/>
     <busStop id="1115656884" name="Am Sande" lane="36335706_0" startPos="9.68" endPos="17.18" friendlyPos="true" lines="5100"/>
     <busStop id="1115656902" name="Am Sande" lane="96294225_0" startPos="0.43" endPos="12.72" friendlyPos="true" lines="5014 5013 5009 5002 5005 5200"/>
-    <busStop id="1116169495" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="15.72" friendlyPos="true" lines="5009 5002"/>
+    <busStop id="1116169495" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="10.72" friendlyPos="true" lines="5009 5002"/>
     <busStop id="1116169501" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="0.00" endPos="11.00" friendlyPos="true" lines="5006 5007"/>
-    <busStop id="1116169505" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="15.72" friendlyPos="true" lines="5300 5007"/>
+    <busStop id="1116169505" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="10.72" endPos="15.72" friendlyPos="true" lines="5300 5007"/>
     <busStop id="1116169506" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="0.00" endPos="11.00" friendlyPos="true" lines="5013 5012 5009 5010"/>
     <busStop id="1116169525" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="0.00" endPos="11.00" friendlyPos="true" lines="5015 5005"/>
-    <busStop id="1116169527" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="15.72" friendlyPos="true" lines="5003"/>
+    <busStop id="1116169527" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="15.72" endPos="20.72" friendlyPos="true" lines="5003"/>
     <busStop id="1116169531" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="0.00" endPos="11.00" friendlyPos="true"/>
-    <busStop id="1116169543" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="15.72" friendlyPos="true" lines="5015"/>
+    <busStop id="1116169543" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="20.72" endPos="25.00" friendlyPos="true" lines="5015"/>
     <busStop id="1116252423" name="Wallstraße (Theater)" lane="96306840#1_0" startPos="26.93" endPos="41.93" friendlyPos="true" lines="5015 5011 5600 5700 5003 5007"/>
     <busStop id="1116252424" name="Rathaus" lane="39258214_0" startPos="80.68" endPos="88.18" friendlyPos="true" lines="5014 5013 5009 5002 5005 5200"/>
     <busStop id="114242594" name="Lüneburg" lane="24808934_0" startPos="0.00" endPos="156.64" friendlyPos="true">
@@ -88,7 +75,7 @@
     </busStop>
     <busStop id="1181280851" name="Rotes Tor" lane="12136260#1_0" startPos="36.33" endPos="43.50" friendlyPos="true" lines="5012"/>
     <busStop id="1389308865" name="Bf. Lüneburg (ZOB)" lane="124977960_0" startPos="0.00" endPos="7.50" friendlyPos="true"/>
-    <busStop id="268637627" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="15.72" friendlyPos="true"/>
+    <busStop id="268637627" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="25.72" endPos="30.72" friendlyPos="true"/>
     <busStop id="268637630" name="Bf. Lüneburg (ZOB)" lane="-96306841_0" startPos="0.00" endPos="9.96" friendlyPos="true"/>
     <busStop id="305721264" name="Lüneburg" lane="24808619#0_0" startPos="0.00" endPos="136.55" friendlyPos="true" lines="RE83">
         <access lane="27728397#2_0" pos="2.58" length="5.59" friendlyPos="1"/>
@@ -97,9 +84,9 @@
         <access lane="406400534_0" pos="0.00" length="7.78" friendlyPos="1"/>
         <access lane="406400541#1_0" pos="1.51" length="1.63" friendlyPos="1"/>
     </busStop>
-    <busStop id="3126301507" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="0.72" endPos="15.72" friendlyPos="true" lines="5014 5011"/>
+    <busStop id="3126301507" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="30.72" endPos="35.00" friendlyPos="true" lines="5014 5011"/>
     <busStop id="3136293740" name="Clamartpark" lane="328178779_0" startPos="37.88" endPos="52.88" friendlyPos="true"/>
-    <busStop id="347321889" name="Lüneburg" lane="107583219#1_0" startPos="0.00" endPos="114.55" friendlyPos="true" lines="Bleckeder Kleinbahn: Lüneburg =&gt; Bleckede">
+    <busStop id="347321889" name="Lüneburg" lane="107583219#1_0" startPos="0.00" endPos="114.55" friendlyPos="true" lines="Bleckeder Kleinbahn: L neburg => Bleckede">
         <access lane="27728397#1_0" pos="7.27" length="5.25" friendlyPos="1"/>
         <access lane="392265502#1_0" pos="0.20" length="9.10" friendlyPos="1"/>
         <access lane="406400534_0" pos="0.00" length="8.86" friendlyPos="1"/>
