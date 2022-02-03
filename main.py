@@ -10,12 +10,17 @@ else:
     sys.exit("please declare environment variable 'SUMO_HOME'")
 
 sumoBinary = os.environ.get('SUMO_HOME') + "/bin/sumo-gui.exe"
-sumoCmd = [sumoBinary, "-c", "simulation_data/osm.sumocfg"]
+sumoCmd = [
+    sumoBinary,
+    '-c', 'simulation_data/osm.sumocfg',
+    '--summary', 'output/summary.xml',
+    '--tripinfo-output', 'output/trip_info.xml'
+]
 
 traci.start(sumoCmd)
 step = 0
 
-while step < 3600:
+while step < 3600:  # traci.simulation.getMinExpectedNumber() > 0:
     traci.simulationStep()
     # if traci.inductionloop.getLastStepVehicleNumber("0") > 0:
     #     traci.trafficlight.setRedYellowGreenState("0", "GrGr")
