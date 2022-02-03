@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-01-31 13:17:02 by Eclipse SUMO netedit Version 1.11.0
+<!-- generated on 2022-02-03 13:57:36 by Eclipse SUMO netedit Version 1.11.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
 
     <input>
@@ -44,26 +44,26 @@
 <additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
     <busStop id="-1115656884" name="Am Sande" lane="-96306828_0" startPos="98.68" endPos="113.69" friendlyPos="true" lines="5015 5011 5100 5110 5003 5900 5200"/>
     <busStop id="-1115656899" name="Am Sande" lane="-96306828_0" startPos="116.49" endPos="131.50" friendlyPos="true" lines="5009 5005 5007"/>
-    <busStop id="-1116169491" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="66.22" endPos="73.92" friendlyPos="true" lines="5001 5100 5110"/>
-    <busStop id="-1116169499" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="56.12" endPos="63.82" friendlyPos="true" lines="5600 5700 5900"/>
-    <busStop id="-1116169505" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="45.67" endPos="53.37" friendlyPos="true" lines="5012"/>
+    <busStop id="-1116169491" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="77.93" endPos="88.61" friendlyPos="true" lines="5001 5100 5110"/>
+    <busStop id="-1116169499" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="61.07" endPos="71.88" friendlyPos="true" lines="5600 5700 5900"/>
+    <busStop id="-1116169505" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="48.03" endPos="55.73" friendlyPos="true" lines="5012"/>
     <busStop id="-1116169520" name="Markt" lane="-96294232_0" startPos="22.87" endPos="37.87" friendlyPos="true" lines="5014 5002"/>
     <busStop id="-1116169543" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="35.37" endPos="43.07" friendlyPos="true" lines="5005"/>
     <busStop id="-1116252422" name="Wallstraße (Theater)" lane="-96306840#0_0" startPos="27.94" endPos="35.44" friendlyPos="true" lines="5015 5011 5009 5003 5005 5007 5200"/>
     <busStop id="-1181280584" name="Kefersteinstraße (UNI)" lane="-102809770#1_0" startPos="0.00" endPos="7.50" friendlyPos="true" lines="5012"/>
-    <busStop id="-3126301507" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="29.99" endPos="33.73" friendlyPos="true" lines="5200"/>
+    <busStop id="-3126301507" name="Bf. Lüneburg (ZOB)" lane="-332577351_0" startPos="22.37" endPos="32.38" friendlyPos="true" lines="5200"/>
     <busStop id="-3211150433" name="Stadttheater" lane="-115597416#1_0" startPos="13.92" endPos="28.92" friendlyPos="true" lines="5201"/>
     <busStop id="1115656880" name="Am Sande" lane="36335706_0" startPos="20.73" endPos="35.73" friendlyPos="true" lines="5015 5012 5011 5600 5201 5700 5003 5007"/>
     <busStop id="1115656884" name="Am Sande" lane="36335706_0" startPos="11.58" endPos="19.08" friendlyPos="true" lines="5100"/>
     <busStop id="1115656902" name="Am Sande" lane="96294225_0" startPos="0.43" endPos="12.61" friendlyPos="true" lines="5014 5013 5009 5002 5005 5200"/>
     <busStop id="1116169495" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="15.58" endPos="25.58" friendlyPos="true" lines="5009 5002"/>
     <busStop id="1116169501" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="81.94" endPos="92.94" friendlyPos="true" lines="5006 5007"/>
-    <busStop id="1116169505" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="30.28" endPos="35.28" friendlyPos="true" lines="5300 5007"/>
+    <busStop id="1116169505" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="27.70" endPos="38.42" friendlyPos="true" lines="5300 5007"/>
     <busStop id="1116169506" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="65.05" endPos="76.05" friendlyPos="true" lines="5013 5012 5009 5010"/>
     <busStop id="1116169525" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="48.68" endPos="59.68" friendlyPos="true" lines="5015 5005"/>
-    <busStop id="1116169527" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="40.29" endPos="45.29" friendlyPos="true" lines="5003"/>
+    <busStop id="1116169527" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="40.29" endPos="51.00" friendlyPos="true" lines="5003"/>
     <busStop id="1116169531" name="Bf. Lüneburg (ZOB)" lane="-155467734_0" startPos="31.17" endPos="42.17" friendlyPos="true"/>
-    <busStop id="1116169543" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="53.87" endPos="58.15" friendlyPos="true" lines="5015"/>
+    <busStop id="1116169543" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="53.87" endPos="64.00" friendlyPos="true" lines="5015"/>
     <busStop id="1116252423" name="Wallstraße (Theater)" lane="96306840#1_0" startPos="26.93" endPos="41.93" friendlyPos="true" lines="5015 5011 5600 5700 5003 5007"/>
     <busStop id="1116252424" name="Rathaus" lane="39258214_0" startPos="80.68" endPos="88.18" friendlyPos="true" lines="5014 5013 5009 5002 5005 5200"/>
     <busStop id="114242594" name="Lüneburg" lane="24808934_0" startPos="0.00" endPos="156.64" friendlyPos="true">
@@ -75,7 +75,7 @@
     </busStop>
     <busStop id="1181280851" name="Rotes Tor" lane="12136260#1_0" startPos="36.33" endPos="43.50" friendlyPos="true" lines="5012"/>
     <busStop id="1389308865" name="Bf. Lüneburg (ZOB)" lane="124977960_0" startPos="3.74" endPos="11.24" friendlyPos="true"/>
-    <busStop id="268637627" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="65.98" endPos="70.98" friendlyPos="true"/>
+    <busStop id="268637627" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="65.98" endPos="75.00" friendlyPos="true"/>
     <busStop id="268637630" name="Bf. Lüneburg (ZOB)" lane="-96306841_0" startPos="9.50" endPos="19.46" friendlyPos="true"/>
     <busStop id="305721264" name="Lüneburg" lane="24808619#0_0" startPos="0.00" endPos="136.55" friendlyPos="true" lines="RE83">
         <access lane="27728397#2_0" pos="2.58" length="5.59" friendlyPos="1"/>
@@ -84,7 +84,7 @@
         <access lane="406400534_0" pos="0.00" length="7.78" friendlyPos="1"/>
         <access lane="406400541#1_0" pos="1.51" length="1.63" friendlyPos="1"/>
     </busStop>
-    <busStop id="3126301507" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="80.23" endPos="84.51" friendlyPos="true" lines="5014 5011"/>
+    <busStop id="3126301507" name="Bf. Lüneburg (ZOB)" lane="26945311#1_0" startPos="80.23" endPos="90.00" friendlyPos="true" lines="5014 5011"/>
     <busStop id="3136293740" name="Clamartpark" lane="328178779_0" startPos="37.88" endPos="52.88" friendlyPos="true"/>
     <busStop id="347321889" name="Lüneburg" lane="107583219#1_0" startPos="0.00" endPos="114.55" friendlyPos="true" lines="Bleckeder Kleinbahn: L neburg => Bleckede">
         <access lane="27728397#1_0" pos="7.27" length="5.25" friendlyPos="1"/>
