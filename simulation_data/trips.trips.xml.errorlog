@@ -18,34 +18,23 @@ Warning: busStop '1116252424' for vehicle '4_bus_5014:2' on lane '39258214_0' is
 Warning: No connection between edge '85220995#0' and edge '-96306840#0' found.
 Warning: Vehicle '33_bus_5009:2' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
 Warning: busStop '1116252424' for vehicle '49_bus_5002:1' on lane '39258214_0' is not downstream the current route.
-Warning: busStop '1116252424' for vehicle '60_bus_5002:6' on lane '39258214_0' is not downstream the current route.
-Warning: busStop '1116252424' for vehicle '58_bus_5002:4' on lane '39258214_0' is not downstream the current route.
+Warning: Teleporting vehicle '33_bus_5009:2'; waited too long (wrong lane), lane='85220995#0_0', time=840.00.
+Warning: Vehicle '33_bus_5009:2' ends teleporting on edge '-96306840#0', time 840.00.
 Warning: busStop '1116252424' for vehicle '59_bus_5002:5' on lane '39258214_0' is not downstream the current route.
-Warning: Vehicle '80_bus_5005:3' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
-Warning: Vehicle '79_bus_5005:2' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
+Warning: busStop '1116252424' for vehicle '58_bus_5002:4' on lane '39258214_0' is not downstream the current route.
+Warning: busStop '1116252424' for vehicle '60_bus_5002:6' on lane '39258214_0' is not downstream the current route.
 Warning: busStop '1116252424' for vehicle '71_bus_5014:7' on lane '39258214_0' is not downstream the current route.
-Warning: Vehicle '97_bus_5200:1' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
+Warning: Vehicle '79_bus_5005:2' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
+Warning: Vehicle '80_bus_5005:3' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
 Warning: Vehicle '94_bus_5009:3' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
-Warning: Teleporting vehicle '33_bus_5009:2'; waited too long (wrong lane), lane='85220995#0_0', time=472.00.
-Warning: Vehicle '33_bus_5009:2' ends teleporting on edge '-96306840#0', time 472.00.
-Warning: Teleporting vehicle '79_bus_5005:2'; waited too long (wrong lane), lane='85220995#0_0', time=779.00.
-Warning: Vehicle '79_bus_5005:2' ends teleporting on edge '-96306840#0', time 779.00.
-Warning: Teleporting vehicle '80_bus_5005:3'; waited too long (wrong lane), lane='85220995#0_0', time=1086.00.
-Warning: Vehicle '80_bus_5005:3' ends teleporting on edge '-96306840#0', time 1086.00.
-Warning: Teleporting vehicle '26_bus_5011:3'; waited too long (jam), lane='-155467734_0', time=1166.00.
-Warning: Vehicle '26_bus_5011:3' ends teleporting on edge '26945311#1', time 1166.00.
-Warning: Teleporting vehicle '74_bus_5015:6'; waited too long (yield), lane='26945311#1_0', time=1171.00.
-Warning: Vehicle '74_bus_5015:6' ends teleporting on edge '-155467734', time 1171.00.
-Warning: Teleporting vehicle '94_bus_5009:3'; waited too long (wrong lane), lane='85220995#0_0', time=1394.00.
-Warning: Teleporting vehicle '86_bus_5007:5'; waited too long (jam), lane='-124977959#4_0', time=1470.00.
-Warning: Teleporting vehicle '26_bus_5011:3'; waited too long (wrong lane), lane='26945311#1_1', time=1478.00.
-Warning: Vehicle '26_bus_5011:3' teleports beyond arrival edge '26945311#1', time 1478.00.
-Warning: Vehicle '26_bus_5011:3' skips stop on lane '26945311#1_0' time=1478.00.
-Warning: Teleporting vehicle '91_bus_5007:9'; waited too long (yield), lane='26945311#1_0', time=1479.00.
-Warning: Teleporting vehicle '85_bus_5007:4'; waited too long (jam), lane='-124977959#2_0', time=1481.00.
-Warning: Teleporting vehicle '83_bus_5007:2'; waited too long (yield), lane='-124977959#0_0', time=1483.00.
-Warning: Vehicle '76_bus_5015:8' skips stop on lane '-155467734_0' time=1486.00.
+Warning: Vehicle '97_bus_5200:1' has no valid route from edge '85220995#0' to stop edge '-96306840#0'.
+Warning: Teleporting vehicle '79_bus_5005:2'; waited too long (wrong lane), lane='85220995#0_0', time=1595.00.
+Warning: Vehicle '79_bus_5005:2' ends teleporting on edge '-96306840#0', time 1595.00.
+Warning: Teleporting vehicle '80_bus_5005:3'; waited too long (wrong lane), lane='85220995#0_0', time=1903.00.
+Warning: Vehicle '80_bus_5005:3' ends teleporting on edge '-96306840#0', time 1903.00.
+Warning: Teleporting vehicle '94_bus_5009:3'; waited too long (wrong lane), lane='85220995#0_0', time=2210.00.
+Warning: Vehicle '94_bus_5009:3' ends teleporting on edge '-96306840#0', time 2210.00.
+Warning: Teleporting vehicle '97_bus_5200:1'; waited too long (wrong lane), lane='85220995#0_0', time=2519.00.
+Warning: Vehicle '97_bus_5200:1' ends teleporting on edge '-96306840#0', time 2519.00.
 Warning: 10 total messages of type: At actuated tlLogic '%', linkIndex % has no controlling detector.
 Warning: 14 total messages of type: No connection between edge '%' and edge '%' found.
-Warning: 7 total messages of type: Teleporting vehicle '%'; waited too long (wrong lane), lane='%', time=%.
-Warning: 12 total messages of type: Vehicle '%' ends teleporting on edge '%', time %.
