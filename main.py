@@ -22,7 +22,7 @@ step = 0
 
 while step < 3600:  # traci.simulation.getMinExpectedNumber() > 0:
     traci.simulationStep()
-    # if traci.inductionloop.getLastStepVehicleNumber("0") > 0:
+    # if traci.inductionloop.getLastStepVehicleNumber("instantInductionLoop_-11627689_0_0") > 0:
     #     traci.trafficlight.setRedYellowGreenState("0", "GrGr")
     step += 1
 
