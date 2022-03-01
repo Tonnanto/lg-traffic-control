@@ -29313,4 +29313,14 @@
             <lane id="-42992977#1_1" queueing_time="69.00" queueing_length="12.50" queueing_length_experimental="12.50"/>
             <lane id="-96306832#0_0" queueing_time="2.00" queueing_length="13.00" queueing_length_experimental="13.00"/>
             <lane id="-96306840#0_0" queueing_time="12.00" queueing_length="83.57" queueing_length_experimental="69.03"/>
-            <lane id="118607
+            <lane id="118607895_0" queueing_time="28.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="23918359_0" queueing_time="2.00" queueing_length="5.11" queueing_length_experimental="12.94"/>
+            <lane id="26945311#1_0" queueing_time="0.00" queueing_length="0.00" queueing_length_experimental="45.21"/>
+            <lane id="393505712#0_0" queueing_time="25.00" queueing_length="21.00" queueing_length_experimental="21.00"/>
+            <lane id="393505712#0_1" queueing_time="6.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="393505712#0_2" queueing_time="18.00" queueing_length="6.00" queueing_length_experimental="6.00"/>
+            <lane id="46191510#0_1" queueing_time="27.00" queueing_length="21.00" queueing_length_experimental="21.00"/>
+            <lane id="85220995#0_0" queueing_time="43.00" queueing_length="26.50" queueing_length_experimental="26.50"/>
+        </lanes>
+    </data>
+</queue-export>

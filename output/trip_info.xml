@@ -1907,3 +1907,4 @@
     <tripinfo id="pt_bus_5009:2.0" depart="526.00" departLane="85220995#0_0" departPos="12.10" departSpeed="0.00" departDelay="0.00" arrival="1336.00" arrivalLane="-155467734_0" arrivalPos="92.93" arrivalSpeed="6.03" duration="810.00" routeLength="1311.24" waitingTime="375.00" waitingCount="4" stopTime="133.00" timeLoss="453.35" rerouteNo="0" devices="vehroute_pt_bus_5009:2.0 tripinfo_pt_bus_5009:2.0 emissions_pt_bus_5009:2.0" vType="pt_bus" speedFactor="1.00" vaporized="">
         <emissions CO_abs="14958.374561" CO2_abs="5151865.521086" HC_abs="3464.165800" PMx_abs="1511.846884" NOx_abs="51344.653132" fuel_abs="2195.860497" electricity_abs="0"/>
     </tripinfo>
+</tripinfos>
