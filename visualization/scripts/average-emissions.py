@@ -57,8 +57,6 @@ avg_emissions = {}
 for vehicle_type in list(num_vehicles.keys()):
 	avg_emissions[type_map[vehicle_type]] = (total_emissions[vehicle_type] / num_vehicles[vehicle_type]) / 1000000 # 1000000mg in a kg
 
-print(num_vehicles)
-print(total_emissions)
 print(avg_emissions)
 
 fig, ax = plt.subplots(figsize =(16, 9))
@@ -69,7 +67,7 @@ ax.set_title('Durchschnittlicher CO2 Output (in kg)',
 ax.invert_yaxis()
 
 for i in ax.patches:
-    plt.text(i.get_x() + 0.1, i.get_y() + 0.25,
+    plt.text(i.get_x() + 0.05, i.get_y() + 0.25,
              str(round((i.get_width()), 5)),
              fontsize = 22, fontweight ='bold',
              color ='white')
