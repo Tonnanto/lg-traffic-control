@@ -2,6 +2,7 @@ import os
 import sys
 
 import traci
+import platform
 
 if 'SUMO_HOME' in os.environ:
     tools = os.path.join(os.environ['SUMO_HOME'], 'tools')
@@ -9,7 +10,11 @@ if 'SUMO_HOME' in os.environ:
 else:
     sys.exit("please declare environment variable 'SUMO_HOME'")
 
-sumoBinary = os.environ.get('SUMO_HOME') + "/bin/sumo-gui.exe"
+sumoBinary = os.environ.get('SUMO_HOME') + "/bin/sumo-gui.exe" 
+
+if platform.system() == 'Darwin':
+    sumoBinary = '/usr/local/bin/sumo-gui'
+
 sumoCmd = [
     sumoBinary,
     '-c', 'simulation_data/osm.sumocfg',
