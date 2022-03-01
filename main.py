@@ -19,7 +19,11 @@ sumoCmd = [
     sumoBinary,
     '-c', 'simulation_data/osm.sumocfg',
     '--summary', 'output/summary.xml',
-    '--tripinfo-output', 'output/trip_info.xml'
+    '--tripinfo-output', 'output/trip_info.xml',
+    '--statistic-output', 'output/statistics.xml',
+    '--vehroute-output', 'output/vehicle-routes.xml',
+    '--queue-output', 'output/queue.xml',
+    '--emission-output', 'output/emissions.xml'
 ]
 
 traci.start(sumoCmd)
