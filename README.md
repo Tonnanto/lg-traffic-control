@@ -5,6 +5,7 @@ Alle Skripts werden aus dem `lg-traffic-control` Root-Ordner ausgeführt.
 
 ### Durchschnittliche Emissions für Autotypen
 Öffnet `matplotlib` Visualisierung und gibt Daten als JSON zurück.
+Es werden die Emissionen aller Fahrzeuge eines Typs addiert und dann durch die Anzahl geteilt.
 
 ![](visualization/avg_co2.png)
 
