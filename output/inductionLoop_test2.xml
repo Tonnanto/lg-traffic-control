@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2022-03-01 14:53:10 by Eclipse SUMO GUI Version 1.11.0
+<!-- generated on 2022-03-07 14:52:21 by Eclipse SUMO GUI Version 1.11.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
@@ -11,7 +11,6 @@
 
     <output>
         <emission-output value="output/emissions.xml"/>
-        <full-output value="output/full.xml"/>
         <queue-output value="output/queue.xml"/>
         <summary-output value="output/summary.xml"/>
         <tripinfo-output value="output/trip_info.xml"/>
@@ -36,7 +35,7 @@
     </report>
 
     <traci_server>
-        <remote-port value="62073"/>
+        <remote-port value="56070"/>
     </traci_server>
 
     <gui_only>
@@ -51,5 +50,12 @@
     <interval begin="300.00" end="600.00" id="inductionLoop_test2" nVehContrib="7" flow="84.00" occupancy="4.82" speed="5.87" harmonicMeanSpeed="5.47" length="11.00" nVehEntered="7"/>
     <interval begin="600.00" end="900.00" id="inductionLoop_test2" nVehContrib="13" flow="156.00" occupancy="10.71" speed="4.42" harmonicMeanSpeed="4.02" length="9.85" nVehEntered="13"/>
     <interval begin="900.00" end="1200.00" id="inductionLoop_test2" nVehContrib="6" flow="72.00" occupancy="12.91" speed="5.44" harmonicMeanSpeed="1.63" length="7.33" nVehEntered="6"/>
-    <interval begin="1200.00" end="1339.00" id="inductionLoop_test2" nVehContrib="3" flow="77.70" occupancy="1.21" speed="9.16" harmonicMeanSpeed="8.94" length="5.00" nVehEntered="3"/>
+    <interval begin="1200.00" end="1500.00" id="inductionLoop_test2" nVehContrib="7" flow="84.00" occupancy="3.11" speed="7.00" harmonicMeanSpeed="5.97" length="8.00" nVehEntered="7"/>
+    <interval begin="1500.00" end="1800.00" id="inductionLoop_test2" nVehContrib="7" flow="84.00" occupancy="5.05" speed="4.64" harmonicMeanSpeed="4.17" length="9.00" nVehEntered="7"/>
+    <interval begin="1800.00" end="2100.00" id="inductionLoop_test2" nVehContrib="9" flow="108.00" occupancy="11.27" speed="5.10" harmonicMeanSpeed="1.65" length="8.11" nVehEntered="9"/>
+    <interval begin="2100.00" end="2400.00" id="inductionLoop_test2" nVehContrib="8" flow="96.00" occupancy="27.94" speed="5.15" harmonicMeanSpeed="0.76" length="9.38" nVehEntered="8"/>
+    <interval begin="2400.00" end="2700.00" id="inductionLoop_test2" nVehContrib="8" flow="96.00" occupancy="20.96" speed="4.39" harmonicMeanSpeed="3.82" length="11.12" nVehEntered="9"/>
+    <interval begin="2700.00" end="3000.00" id="inductionLoop_test2" nVehContrib="9" flow="108.00" occupancy="14.40" speed="3.94" harmonicMeanSpeed="1.22" length="9.67" nVehEntered="8"/>
+    <interval begin="3000.00" end="3300.00" id="inductionLoop_test2" nVehContrib="2" flow="24.00" occupancy="2.05" speed="4.02" harmonicMeanSpeed="3.89" length="12.00" nVehEntered="2"/>
+    <interval begin="3300.00" end="3600.00" id="inductionLoop_test2" nVehContrib="6" flow="72.00" occupancy="24.91" speed="4.73" harmonicMeanSpeed="0.43" length="8.50" nVehEntered="6"/>
 </detector>
